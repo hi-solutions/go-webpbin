@@ -5,7 +5,7 @@ go 1.23.2
 require (
 	github.com/hi-solutions/go-binwrapper v0.0.0-20241013193453-4b8ff14adf0d
 	github.com/stretchr/testify v1.9.0
-	golang.org/x/image v0.0.0-20210628002857-a66eb6448b8d
+	golang.org/x/image v0.21.0
 )
 
 require (
