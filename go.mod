@@ -1,16 +1,17 @@
-module github.com/nickalie/go-webpbin
+module github.com/hi-solutions/go-webpbin
 
-go 1.14
+go 1.23.2
 
 require (
-	github.com/dsnet/compress v0.0.1 // indirect
-	github.com/golang/snappy v0.0.4 // indirect
-	github.com/mholt/archiver v3.1.1+incompatible // indirect
-	github.com/nickalie/go-binwrapper v0.0.0-20190114141239-525121d43c84
-	github.com/nwaples/rardecode v1.1.0 // indirect
-	github.com/pierrec/lz4 v2.6.1+incompatible // indirect
-	github.com/stretchr/testify v1.7.0
-	github.com/ulikunitz/xz v0.5.10 // indirect
-	github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8 // indirect
+	github.com/hi-solutions/go-binwrapper v0.0.0-20241013193453-4b8ff14adf0d
+	github.com/stretchr/testify v1.9.0
 	golang.org/x/image v0.0.0-20210628002857-a66eb6448b8d
+)
+
+require (
+	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/kr/text v0.2.0 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/rogpeppe/go-internal v1.9.0 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )

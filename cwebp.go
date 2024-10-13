@@ -6,7 +6,7 @@ import (
 	"image"
 	"io"
 
-	"github.com/nickalie/go-binwrapper"
+	"github.com/hi-solutions/go-binwrapper"
 )
 
 type cropInfo struct {
